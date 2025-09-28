@@ -137,8 +137,9 @@
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                     
                     <!-- Coluna da Foto (Foto 1 - Profissional/Casual) -->
+                    <!-- Adicionando mx-auto e max-w-sm para centralizar em mobile e max-w-none para usar 100% da coluna no desktop -->
                     <div class="lg:col-span-1 fade-in">
-                        <div class="professional-card-hover rounded-xl overflow-hidden shadow-xl">
+                        <div class="professional-card-hover rounded-xl overflow-hidden shadow-xl max-w-sm mx-auto lg:max-w-none">
                             <img src="https://cdn.shopify.com/s/files/1/0830/2385/5932/files/WhatsApp_Image_2025-09-28_at_13.53.58_3.jpg?v=1759079668" 
                                  alt="[Imagem de João Victor sorrindo, ideal para biografia]" 
                                  class="w-full h-auto object-cover"
@@ -201,12 +202,12 @@
                     <p class="mt-3 text-xl text-gray-500">Cinco semanas que definiram meu futuro profissional.</p>
                 </div>
 
-                <!-- Mudança de layout: De 1/3 e 2/3 para 50/50 (lg:grid-cols-2) para aumentar a imagem e centralizar/balancear. -->
+                <!-- O layout de 50/50 já torna a imagem maior. Adicionando max-w-sm e mx-auto para centralizar a imagem card no mobile. -->
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     
                     <!-- Coluna da Foto (Foto 3 - Cirurgia/Hospital) - Agora 50% de largura no desktop -->
                     <div class="lg:col-span-1 fade-in">
-                        <div class="professional-card-hover rounded-xl overflow-hidden shadow-xl">
+                        <div class="professional-card-hover rounded-xl overflow-hidden shadow-xl max-w-sm mx-auto lg:max-w-none">
                             <img src="https://cdn.shopify.com/s/files/1/0830/2385/5932/files/WhatsApp_Image_2025-09-28_at_13.53.58_1.jpg?v=1759079668" 
                                  alt="[Imagem de João Victor Leão em ambiente hospitalar ou de estágio, vestindo scrubs]" 
                                  class="w-full h-auto object-cover"
