@@ -137,7 +137,6 @@
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
                     
                     <!-- Coluna da Foto (Foto 1 - Profissional/Casual) -->
-                    <!-- Adicionando mx-auto e max-w-sm para centralizar em mobile e max-w-none para usar 100% da coluna no desktop -->
                     <div class="lg:col-span-1 fade-in">
                         <div class="professional-card-hover rounded-xl overflow-hidden shadow-xl max-w-sm mx-auto lg:max-w-none">
                             <img src="https://cdn.shopify.com/s/files/1/0830/2385/5932/files/WhatsApp_Image_2025-09-28_at_13.53.58_3.jpg?v=1759079668" 
@@ -173,17 +172,22 @@
                             <h4 class="text-2xl font-bold text-primary-dark mb-2 border-b pb-1 border-blue-100">A Jornada para a Baixada Santista</h4>
                             <p>Após concluir o ensino médio e realizar o estágio técnico obrigatório em 2019, iniciei minha rotina de estudos em Belo Horizonte. No ano de 2020, em meio à pandemia, obtive um bom desempenho no ENEM e, por ter estudado os três anos em escola pública, fui elegível para as bolsas do ProUni na Universidade São Judas.</p>
                             <p>Com a aprovação, mudei-me para Cubatão, sozinho, sem minha família, mas com o sonho de cursar Medicina. A cidade me assustou no início, sendo um polo fabril. Foi aqui que conheci minha namorada, Maria Clara, minha colega de sala, cujos pais se tornaram uma família para mim.</p>
-                            <div class="mt-4 flex justify-end">
-                                <!-- Foto 4: Cubatão/Viagem (para dar contexto à mudança) -->
+                            <!-- FOTO 4 (Grupo de pessoas) REMOVIDA DAQUI, SERÁ COLOCADA ABAIXO DO TEXTO. -->
+                        </div>
+                        
+                        <!-- Foto 4 Movida e Centralizada para maior destaque -->
+                        <div class="fade-in" style="transition-delay: 0.4s;">
+                             <div class="flex justify-center mt-6">
                                 <img src="https://cdn.shopify.com/s/files/1/0830/2385/5932/files/WhatsApp_Image_2025-09-28_at_13.53.58.jpg?v=1759079668" 
-                                     alt="[Imagem de João Victor em Cubatão ou de viagem, simbolizando a mudança]" 
-                                     class="w-36 sm:w-48 h-auto object-cover rounded-lg shadow-md professional-card-hover"
-                                     onerror="this.onerror=null; this.src='https://placehold.co/300x200/DBEAFE/1E3A8A?text=Foto+4+-+Mudança'">
+                                     alt="[Imagem de João Victor com colegas de faculdade/estágio, simbolizando o novo ciclo em Cubatão]" 
+                                     class="w-full max-w-md h-auto object-cover rounded-xl shadow-lg professional-card-hover border-4 border-gray-100"
+                                     onerror="this.onerror=null; this.src='https://placehold.co/600x400/DBEAFE/1E3A8A?text=Foto+4+-+Nova+Fase'">
                             </div>
                         </div>
 
+
                         <!-- Certeza na Cirurgia -->
-                        <div class="fade-in" style="transition-delay: 0.4s;">
+                        <div class="fade-in" style="transition-delay: 0.5s;">
                             <h4 class="text-2xl font-bold text-primary-dark mb-2 border-b pb-1 border-blue-100">Certeza na Cirurgia</h4>
                             <p>Assim como eu dizia aos meus pais desde pequeno que seria médico, desde que entrei na faculdade, digo que quero a Cirurgia como especialidade. Tal como a escolha da graduação, a decisão pela residência não está sendo pensada ou calculada; é uma certeza que se consolidou.</p>
                             <p>Na verdade, a cada estágio que concluo, a certeza de que farei Cirurgia se solidifica. Fiquei encantado pela Medicina e a cada estágio levo lições e qualidades de nossos preceptores que, sem dúvida, agregarão muito ao meu dia a dia daqui para frente.</p>
@@ -202,7 +206,7 @@
                     <p class="mt-3 text-xl text-gray-500">Cinco semanas que definiram meu futuro profissional.</p>
                 </div>
 
-                <!-- O layout de 50/50 já torna a imagem maior. Adicionando max-w-sm e mx-auto para centralizar a imagem card no mobile. -->
+                <!-- O layout de 50/50 já torna a imagem maior. mx-auto garante o centralizamento em mobile. -->
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     
                     <!-- Coluna da Foto (Foto 3 - Cirurgia/Hospital) - Agora 50% de largura no desktop -->
